@@ -24,3 +24,7 @@ for (let key in movie) {
 for(const word in movie){
   console.log(Object.values(movie))
 }
+for(let key in movie){
+  let val = movie[key];
+  console.log(val);
+}
