@@ -20,3 +20,7 @@ console.log(movie.rating); // 9
 for (let key in movie) {
   console.log(`${key}: ${movie[key]}`);
 }
+
+for(const word in movie){
+  console.log(Object.values(movie))
+}
